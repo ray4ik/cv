@@ -4,12 +4,12 @@
 .content li {
   list-style-type: none; 
   padding-bottom: var(--space-small);
+  
 }
 
 .content li::before {
-  content: "◦"; color: var(--color-green-lena);
-
-  
+  content: "◦"; color: var(--color-green-lena); 
+  margin-right: 10px; 
 }
 
 .content h3 {
