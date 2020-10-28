@@ -1,26 +1,19 @@
 .contact-list {
   padding-left: 0;
 }
-.contact-list li {
-  list-style-type: none;
-}
+
 .contact-list a {
-  display: inline-block;
-  box-sizing: border-box;
-  margin-bottom: var(--space-small);
-  padding: var(--space-smaller) var(--space-small);
-  background-color: var(--color-green-lena);
-  color: white;
-  border: solid var(--space-smaller) white;
+  color: var(--color-green-lena);
 }
+.contact-list a:visited {
+  color:  #797979;
+}
+
+a:hover {
+  color: hotpink;
+}
+
 
 .contact-list i {
   margin-right: var(--space-small);
-}
-
-.contact-list a:hover {
-  text-decoration: none;
-  background-color: var(--color-green-lena);
-  color: black;
-  border: solid var(--space-smaller) #76b887;
 }

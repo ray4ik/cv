@@ -9,7 +9,7 @@
 
 .content li::before {
   content: "◦"; color: var(--color-green-lena); 
-  margin-right: 10px; 
+  margin-right: 5px; 
 }
 
 .content h3 {
