@@ -21,6 +21,10 @@
   padding-bottom: var(--space-smaller);
 }
 
+.content a:hover {
+  color: var(--color-green-lena);
+} 
+
 /* Tablets */
 @media (min-width: 550px) {
   .content .grid {

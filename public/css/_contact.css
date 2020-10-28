@@ -3,16 +3,12 @@
 }
 
 .contact-list a {
-  color: var(--color-green-lena);
-}
-.contact-list a:visited {
-  color:  #797979;
+  color: var(--color-green-lena); ;
 }
 
-a:hover {
-  color: hotpink;
-}
-
+.contact-list a:hover {
+  color: var(--color-grey-good);
+} 
 
 .contact-list i {
   margin-right: var(--space-small);

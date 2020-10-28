@@ -40,6 +40,6 @@ body {
 .subtitle {
   font-size: 12px;
   font-weight: 900;
-  color: #797979;
+  color: var(--color-grey-good);
   text-transform: uppercase;
 }
