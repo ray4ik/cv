@@ -1,0 +1,39 @@
+.content ul {
+  padding-left: var(--space-medium);
+}
+.content li {
+  list-style-type: none; 
+  padding-bottom: var(--space-small);
+}
+
+.content li::before {
+  content: "◦"; color: var(--color-green-lena);
+
+  
+}
+
+.content h3 {
+  color: var(--color-green-ligth-lena);
+}
+
+.content a {
+  color: black;
+  padding-bottom: var(--space-smaller);
+}
+
+/* Tablets */
+@media (min-width: 550px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: var(--space-medium);
+  }
+}
+/* Desctops */
+@media (min-width: 750px) {
+  .content .grid {
+    grid-template-columns: 1fr 1fr 250px;
+    grid-column-gap: var(--space-big);
+    max-width: 850px;
+  }
+}
